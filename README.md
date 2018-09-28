@@ -17,5 +17,5 @@
 3. <notebook for weekday-weekend ratio calculation>
 4. Heatmap.ipynb: plots heatmaps of chosen stations
 5. Appendix:
-  1. bendon_EDA-Appendix.ipynb: EDA that didn't make the final cut
+  1. Appendix-EDA.ipynb: EDA that didn't make the final cut
   
