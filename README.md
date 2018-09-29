@@ -13,7 +13,7 @@
 
 
 ### Notebooks in repo:
-1. benson-data-cleaning.ipynb: handles importing and cleaning of MTA data
+1. data-cleaning-MTA.ipynb: handles importing and cleaning of MTA data
 2. benson-zipcodes.ipynb:
 3. benson-Hir.ipynb :calculation for median daily weekday to weekend traffic ratio
 4. Heatmap.ipynb: plots heatmaps of chosen stations
