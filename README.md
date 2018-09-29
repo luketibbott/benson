@@ -15,7 +15,7 @@
 ### Notebooks in repo:
 1. benson-data-cleaning.ipynb: handles importing and cleaning of MTA data
 2. benson-zipcodes.ipynb:
-3. <notebook for weekday-weekend ratio calculation>
+3. benson-Hir.ipynb :calculation for median daily weekday to weekend traffic ratio
 4. Heatmap.ipynb: plots heatmaps of chosen stations
 5. Appendix:
    - Appendix-EDA.ipynb: EDA that didn't make the final cut
