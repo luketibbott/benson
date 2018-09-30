@@ -16,8 +16,8 @@
 1. benson-data-cleaning.ipynb: handles importing and cleaning of MTA data
 2. api-census-collection.ipynb: Gets geocodes for each station from Google Maps API. Also gets income tax data from U.S. 2016 Census. Merges the two sets of data to get the number of high income (>$100,000 / year) residents in the same zipcode as a subway station. 
 3. benson-Hir.ipynb :calculation for median daily weekday to weekend traffic ratio
-4. Heatmap.ipynb: plots heatmaps of chosen stations
-5. select_stations.ipynb: Filters subway stations on our criteria of weekday/weekend ratio, high income residents, and median daily traffic. Also makes final plots, including scatter plots and bar chart (heat map in another notebook).
+4. select_stations.ipynb: Filters subway stations on our criteria of weekday/weekend ratio, high income residents, and median daily traffic. Also makes final plots, including scatter plots and bar chart.
+5. Heatmap.ipynb: plots heatmaps of chosen stations 
 5. Appendix:
    - Appendix-EDA.ipynb: EDA that didn't make the final cut
    
@@ -27,7 +27,7 @@
 3. filtered.csv: Our final list of stations
 4. ny-zip-income.csv: 16zpallagi.csv filtered down to zipcodes in New York City, and columns containing data on zipcode, income range ('agi_stub'), and number of residents falling in to an income range.
 5. pared_turnstile.csv: MTA turnstile data with zipcode, number of high income residents, and an engineered feature showing how much traffic a station experienced in a given four hour period.
-6. raw_turnstile_data.csv: MTA turnstile data downloaded directly from the website with no data cleaning done.
+6. raw_turnstile_data.csv: MTA turnstile data downloaded directly from the website. Four data files concatendated with no data cleaning done.
 7. turnstile_data_by-station-day.csv: MTA turnstile data showing traffic summed over each day for each station.
 8. zipcodes.csv: Subway station name, zipcode, and number of high income residents in the zipcode of each station.
   
