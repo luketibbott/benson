@@ -10,6 +10,7 @@
 
 ### Tools
 1. Python, Pandas, Matplotlib, Seaborn
+2. Google API
 
 
 ### Notebooks in repo:
